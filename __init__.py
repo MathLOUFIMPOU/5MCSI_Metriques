@@ -35,6 +35,10 @@ def mongraphique():
 def monhistogramme():
     return render_template("Histogramme.html")
 
+@app.route("/Contact/")
+def moncontact():
+    return render_template("Contact.html")
+
 if __name__ == "__main__":
   app.run(debug=True)
   
