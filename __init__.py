@@ -14,7 +14,6 @@ def hello_world():
   
 if __name__ == "__main__":
   app.run(debug=True)
-  
-  @app.route("/contact/")
+    @app.route("/contact/")
 def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"
